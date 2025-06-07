@@ -97,8 +97,8 @@ def pred(input_resume):
 def main():
     st.set_page_config(page_title="Smart Resume Analyzer", page_icon="🧠", layout="wide")
 
-    st.title("📄 AI-Powered Job Role Predictor")
-    st.markdown("Upload a resume file (PDF, DOCX, or TXT), and we'll tell you the most likely job category it fits.")
+    st.title("📄 AI-Powered Job Role Recommender")
+    st.markdown("Not sure where you fit? Upload your resume and get personalized job recommendation instantly.")
 
     col1, col2 = st.columns([1, 2])
 
